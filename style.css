@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+}
+
+.card {
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    background: lightgray;
+    transition: 0.3s;
+}
+
+.card:hover {
+    background: gray;
+    color: white;
+}
+
+.dark {
+    background: black;
+    color: white;
+}
